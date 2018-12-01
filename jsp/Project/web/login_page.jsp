@@ -30,7 +30,7 @@
                 ResultSet rs=st.executeQuery(query1);
                 
             if(rs.next())
-                out.println("welcome"+user+"to this website");
+                out.println("welcome" +user+ "<a href='eventmn.jsp'>Go to homepage</a>");
                 else
                  out.println("not found");
                 st.close();

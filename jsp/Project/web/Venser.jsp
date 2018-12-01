@@ -88,19 +88,37 @@ input[type=text] {
     left:30%;
 }
     
+
+
+
 </style>
+
+
      
 
    <body>
       <div>
        <br>
        <h1 align="center">Venue Search:</h1>
-       <form>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="text" placeholder="Search.." name="search">
-      <button class="button" style="vertical-align:middle" type="submit" >Submit</button>
-        </form>
+       <P>The following are a number of venues that Event Planner Ltd suggests for your events. Get in touch for the best deals possible.</P>
+    
+<form action="ven.jsp" method="post">
+    <CENTER>
+<select name="cars">
+  <option value="raunak.jsp">Raunak Hotel</option>
+  <option value="thelalit.jsp">The Lalit</option>
+  <option value="Aroma.jsp">Aroma</option>
+  <option value="Bellavista.jsp">Bellavista</option>
+</select>
+<input type="submit" value="Submit">
+
+
+</form>
+
        </div>
+     
+       
+       
     </body>
     
 </html>
